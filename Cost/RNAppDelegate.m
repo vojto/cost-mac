@@ -8,6 +8,9 @@
 
 #import "RNAppDelegate.h"
 
+#define COSTY_APPS @"World of Warcraft"
+#define HOURLY_RATE 50.0
+
 @implementation RNAppDelegate
 
 @synthesize window = _window;
@@ -24,7 +27,7 @@
     [self.statusItem setTitle:@"..."];
 
     self.runningSince = [NSMutableDictionary dictionary];
-    self.costyApps = [NSArray arrayWithObjects:@"World of Warcraft", nil];
+    self.costyApps = [NSArray arrayWithObjects:COSTY_APPS, nil];
     
     [self checkApps];
 }
@@ -49,7 +52,7 @@
         NSTimeInterval seconds = [[NSDate date] timeIntervalSinceDate:startTime];
         float minutes = seconds/60;
         
-        float hourlyRate = 50.0;
+        float hourlyRate = HOURLY_RATE;
         float minuteRate = hourlyRate/60;
         
         float price = minutes * minuteRate;
