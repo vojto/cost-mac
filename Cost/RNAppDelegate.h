@@ -11,5 +11,11 @@
 @interface RNAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (retain) NSMutableDictionary *runningSince;
+@property (retain) NSArray *costyApps;
+@property (retain) NSStatusItem *statusItem;
+
+- (void)checkApps;
+- (BOOL)isAppRunning:(NSString *)name;
 
 @end

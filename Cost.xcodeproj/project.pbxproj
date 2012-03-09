@@ -21,12 +21,12 @@
 		991661B21509DDA300456495 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		991661B31509DDA300456495 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		991661B41509DDA300456495 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		991661B71509DDA300456495 /* Cost-Info.plist */ = {isa = PBXFileReference; path = "Cost-Info.plist"; sourceTree = "<group>"; };
+		991661B71509DDA300456495 /* Cost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cost-Info.plist"; sourceTree = "<group>"; };
 		991661B91509DDA300456495 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		991661BB1509DDA300456495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		991661BD1509DDA300456495 /* Cost-Prefix.pch */ = {isa = PBXFileReference; path = "Cost-Prefix.pch"; sourceTree = "<group>"; };
+		991661BD1509DDA300456495 /* Cost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cost-Prefix.pch"; sourceTree = "<group>"; };
 		991661BF1509DDA300456495 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		991661C11509DDA300456495 /* RNAppDelegate.h */ = {isa = PBXFileReference; path = RNAppDelegate.h; sourceTree = "<group>"; };
+		991661C11509DDA300456495 /* RNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppDelegate.h; sourceTree = "<group>"; };
 		991661C21509DDA300456495 /* RNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppDelegate.m; sourceTree = "<group>"; };
 		991661C51509DDA300456495 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
